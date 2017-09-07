@@ -3,24 +3,51 @@
 }
 
 body {
-  background-color: AntiqueWhite;
+  background-color: LightBlue !important;
 }
 
 header {
   text-align: center;
 }
 
-.panels {
+aside {
   align-items: center;
-  display: flex;
+  background-color: LightGray;
+  display: flex !important;
   flex-direction: column;
+  height: auto;
+  margin: 15px 0 0 10px;
+  padding-top: .5%;
+  width: 20%;
+  z-index: 0;
+}
+
+.thanks {
+  text-align: center;
+}
+
+.fade-buttons, .toggle-buttons, .animate-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  background-color: White;
+  border: 1px Solid DodgerBlue;
+  border-radius: 5px;
+  text-align: center;
   margin-top: 15px;
 }
 
-#panel1 {
-  background-color: LightGray;
-  border: 1px solid Black;
-  margin-left: 20px;
-  height: 100px;
-  width: 100px;
+.div {
+  margin: 1%;
 }
+
+button {
+  padding: 1%;
+}
+
+
+
+
+/**** intentional whitespace ****/

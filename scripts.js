@@ -2,12 +2,24 @@ console.log("scipts.js file connected")
 
 $(document).ready(function() {
 
-  $('#btn1').on('click', function() {
-    $('#panel1').toggle(1000)
-  });
+    $('.btn').on('click', function() {
+      console.log("button click")
+    });
 
-  $('#panel1').on('click touchstart', function() {
-    $('#panel1').toggle(1000)
-  });
+    $('#btn1').on('click', function() {
+      $('#item1').fadeOut(1000)
+    });
+
+    $('#btn2').on('click', function() {
+      $('#item2').fadeOut(1000).fadeIn(1000)
+    });
+
+    $('#btn3').on('click', function() {
+      $('#item3').fadeToggle(1000)
+    });
+
+    $('#btn4').on('click', function() {
+      $('#item4').fadeTo("slow", "background-color:Red")
+    });
 
 });
