@@ -6,7 +6,7 @@ $(document).ready(function() {
     $('#panel1').toggle(1000)
   });
 
-  $('#panel1').on('click', function() {
+  $('#panel1').on('click touchstart', function() {
     $('#panel1').toggle(1000)
   });
 
